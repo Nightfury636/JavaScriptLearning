@@ -42,8 +42,6 @@ const handleClick = function (char){
             }
     }
 
-    
-
     alert(result)
     
 }
@@ -60,7 +58,6 @@ function getCpuChart() {
         cpuChart = "paper"
     }
     
-
     return cpuChart
 }
 
@@ -75,5 +72,3 @@ scissorsButton.addEventListener("click", function() {
 paperButton.addEventListener("click", function() {
     handleClick('paper')
 });
-
-
